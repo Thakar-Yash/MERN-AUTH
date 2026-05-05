@@ -1,0 +1,96 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f7fb;
+  padding: 20px;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s;
+  box-sizing: border-box;
+}
+
+.login-form input:focus {
+  border-color: #2563eb;
+}
+
+.login-form input:disabled {
+  background: #f3f4f6;
+  cursor: not-allowed;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.login-form button:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+.login-form button:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+}
+
+.error-msg {
+  color: #dc2626;
+  margin-bottom: 12px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.success-msg {
+  color: #16a34a;
+  margin-bottom: 12px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.signup-link {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.signup-link span {
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signup-link span:hover {
+  text-decoration: underline;
+}

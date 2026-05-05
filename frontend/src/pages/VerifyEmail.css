@@ -1,0 +1,60 @@
+.verify-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f7fb;
+}
+
+.verify-form {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.verify-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.verify-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.verify-form button,
+.otp-btn {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.verify-form button:disabled,
+.otp-btn:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+}
+
+.error-msg {
+  color: red;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.success-msg {
+  color: green;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
